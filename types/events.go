@@ -1612,6 +1612,7 @@ type Message struct {
 type EventDmailMessage struct {
 	Phase   Phase
 	Message Message
+	Topics  []Hash
 }
 
 // EventCouncilProposed is emitted when a motion (given hash) has been proposed (by given account)
