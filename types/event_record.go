@@ -156,6 +156,8 @@ type EventRecords struct {
 	Crowdloan_MemoUpdated       []EventCrowdloanMemoUpdated
 	Crowdloan_AddedToNewRaise   []EventCrowdloanAddedToNewRaise
 
+	Dmail_Message []EventDmailMessage
+
 	Democracy_Blacklisted     []EventDemocracyBlacklisted
 	Democracy_Cancelled       []EventDemocracyCancelled
 	Democracy_Delegated       []EventDemocracyDelegated

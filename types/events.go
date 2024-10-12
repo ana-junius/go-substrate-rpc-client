@@ -1603,6 +1603,17 @@ type EventDemocracyBlacklisted struct {
 	Topics []Hash
 }
 
+type Message struct {
+	Owner AccountID
+	To    []U8
+	Path  []U8
+}
+
+type EventDmailMessage struct {
+	Phase   Phase
+	Message Message
+}
+
 // EventCouncilProposed is emitted when a motion (given hash) has been proposed (by given account)
 // with a threshold (given `MemberCount`).
 type EventCouncilProposed struct {
