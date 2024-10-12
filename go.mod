@@ -1,4 +1,4 @@
-module github.com/ana-junius/go-substrate-rpc-client/v5
+module github.com/ana-junius/go-substrate-rpc-client/v4
 
 go 1.21
 
